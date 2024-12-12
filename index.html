@@ -87,35 +87,6 @@
       #nav ul li a:active {
         color: #dd0426;
       }
-      
-      #banner {
-        margin: 0px;
-        padding: 0px;
-        text-align: left;
-        position: relative;
-      }
-      
-      #banner img {
-        width: 100%;
-      }
-      
-      #banner div {
-        position: absolute;
-        top: 50%;
-        left: 40px;
-        transform: translate(0%, -150%);
-      }
-      
-      #banner div h1 {
-        color: #f1f1f1;
-      }
-      
-      #banner h1 + p {
-        position: absolute;
-        top: 107px;
-        width: 380px;
-        color: #f1f1f1;
-      }
 
       #footer {
         clear: both;
@@ -126,27 +97,36 @@
         padding: 7px 0px 0px 20px;
       }
 
-      #section1 {
+      #name {
         text-align: center;
       }
       
-      #section1 h1 {
-        margin-top: 100px;
+      #name h1 {
         color: #800a12;
       }
       
-      #section1 h2 {
+      #name h2 {
         margin-top: 50px;
         color: #9197ae
-      }
+      } 
       
-      #section1 div {
+      .section1 {
         margin: auto;
-        width: 50%;
+        text-align: left;
       }
       
-      #section1 p {
-        text-align: left;
+      .section1 img {
+        float: left;
+        height: 500px;
+        padding-top: 20px; 
+        padding-right: 40px;
+      }
+      
+      .section1 ul {
+        list-style-type: none;
+        padding: 20px 0px;
+        margin: 0;
+        color: #07090d;
       }
 
       figure {
@@ -164,14 +144,12 @@
         font-weight: 300;
         font-style: normal;
       }
-
-      
     </style>
 
   </head>
   <body>
     <div id="nav">
-      <img src="triple.png" alt="TripleA Logo">
+      <img src="triple.png" alt="Triple A Logo">
       <ul>
         <li><a href="index.html">About</a></li>
         <li><a href="about.html">Trusova</a></li>
@@ -179,26 +157,15 @@
         <li><a href="connect.html">Scherbakova</a></li>
       </ul>
     </div>
-    <div id="banner">
-      <img src="SashaAnnaAlena.jpg" alt="Sasha, Anna, and Alena">
-      <div>
-        <h1>WELCOME</h1>
-        <p>
-          This site is dedicated to three powerhouse Russian figure skaters under Coach Eteri Tutberidze.<br><br>Anna Scherbakova, Alena Kostornaia, and Alexandra Trusova—also known as 3A,Triple A, or the Russian Troika—have dominated ladies figure skating since 2018.
-        </p>
-      </div>
+    <div id="name">
+      <h1>Alexandra Trusova</h1>
+      <h2>"The Russian Rocket"</h2>
     </div>
-    <div id="section1">
-      <h1>Troika</h1>
-      <h2>тройка / troi·ka /ˈtroikə/</h2>
-      <div>
-        <p>
-          <i>NOUN</i>
-        </p>
-        <p>
-          1: a Russian vehicle drawn by three horses abreast also : a team for such a vehicle<br>2: a group of three especially : an administrative or ruling body of three
-        </p>
-      </div>
+    <div class="section1">
+      <img src="sashaTrusova.jpg" alt="Alexandra Trusova">
+      <ul>
+        <li><b>Name:</b> Alexandra Trusova</li>
+      </ul>
     </div>
   </body>
 </html>
