@@ -152,8 +152,20 @@
         justify-content: center;
       }
       
-      .section2 iframe {
+      .section2 iframe.left {
         border: none;
+        padding-top: 90px; 
+        padding-left: 40px;
+        padding-right: 20px;
+        height: 342px;
+        width: 640px;
+      }
+      
+      .section2 iframe.right {
+        border: none;
+        padding-top: 90px; 
+        padding-right: 40px;
+        padding-left: 20px;
         height: 342px;
         width: 640px;
       }
@@ -201,12 +213,12 @@
     <div class="section2">
       <h2>Latest Programs</h2>
       <div class="flex-container">
-        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        <iframe class="left" width="679" height="382" src="https://www.youtube.com/embed/8bRnwsNznNg" title="[HD] ALEXANDRA TRUSOVA - FP- RUSSIAN TEST SKATES 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
         </iframe>
-        
-        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        <iframe class="right" width="679" height="382" src="https://www.youtube.com/embed/a2gWRxak3vY" title="Alexandra Trusova- Russian Test skates 2024,sp" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
         </iframe>
       </div>
     </div>
   </body>
 </html>
+
