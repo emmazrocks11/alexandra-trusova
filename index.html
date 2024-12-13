@@ -14,6 +14,7 @@
       #nav,
       #name,
       .section1,
+      .section2,
       figure,
       figcaption {
         display: block;
@@ -37,7 +38,7 @@
       }
       
       body {
-        color: #666666;
+        color: #07090d;
         background-color: #f1f1f1;
         background-position: center;
         font-family: "Didact Gothic", sans-serif;
@@ -108,8 +109,7 @@
       } 
       
       .section1 {
-        width: 900px;
-        margin: 70px auto;
+        padding-top: 30px;
         text-align: left;
       }
       
@@ -120,10 +120,44 @@
       }
       
       .section1 ul {
+        padding-left: 0px;
+        margin-top: 0px;
         list-style-type: none;
-        line-height: 3em;
-        color: #07090d;
+        line-height: 2em;
       }
+      
+      .section1 ul, p {
+        width: 700px;
+      }
+      
+      .section1 h2 {
+       color: #273043; 
+      }
+      
+      .section2 {
+        text-align: left;
+        background-color: #273043;
+        height: 600px;
+        position: relative;
+      }
+      
+      .section2 h2 {
+        color: #f1f1f1;
+        position: absolute;
+        margin: 35px 40px;
+      }
+      
+      .flex-container {
+        display: flex;
+        justify-content: center;
+      }
+      
+      .section2 iframe {
+        border: none;
+        height: 342px;
+        width: 640px;
+      }
+      
     </style>
 
   </head>
@@ -142,16 +176,37 @@
       <h2>"The Russian Rocket"</h2>
     </div>
     <div class="section1">
-      <img src="sashaTrusova.jpg" alt="Alexandra Trusova">
-      <ul>
-        <li><b>Full Name:</b> Alexandra Vyacheslavovna Ignatova née Trusova</li>
-        <li><b>Date of Birth:</b> June 23, 2004 (age 20)</li>
-        <li><b>Birthplace:</b> Ryazan, Ryazan Oblast, Russia</li>
-        <li><b>Hometown:</b> Moscow, Russia</li>
-        <li><b>Country:</b> Russia</li>
-        <li><b>Skating Club:</b> 	FS Academy Angels of Plushenko</li>
-        <li><b>Coach:</b> 		Evgeny Plushenko</li>
-      </ul>
+      <div class="flex-container">
+        <img src="sashaTrusova.jpg" alt="Alexandra Trusova">
+        <div>
+          <ul>
+            <li><b>Full Name:</b> Alexandra Vyacheslavovna Ignatova née Trusova</li>
+            <li><b>Date of Birth:</b> June 23, 2004 (age 20)</li>
+            <li><b>Birthplace:</b> Ryazan, Ryazan Oblast, Russia</li>
+            <li><b>Hometown:</b> Moscow, Russia</li>
+            <li><b>Country:</b> Russia</li>
+            <li><b>Skating Club:</b> 	FS Academy Angels of Plushenko</li>
+            <li><b>Coach:</b> 		Evgeny Plushenko</li>
+          </ul>
+          <hr>
+           <h2>Biography</h2>
+          <p>
+            Trusova is renouned for her exceptional quadruple-jumps, and made history as the first female skater to successfully land a quad lutz, flip, and toe loop in competition. She is also the first to achieve two — later three — quads in a free skate program.
+
+            She is the Beijing 2022 Olympic silver medallist, a bronze medallist at the 2021 World Figure Skating Championships, and a bronze medallist at the 2020 European Championships.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="section2">
+      <h2>Latest Programs</h2>
+      <div class="flex-container">
+        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        </iframe>
+        
+        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        </iframe>
+      </div>
     </div>
   </body>
 </html>
