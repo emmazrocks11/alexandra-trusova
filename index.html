@@ -203,7 +203,6 @@
 
       table {
         margin-left: 40px;
-        width: 100%;
         border-collapse: collapse;
       }
       
@@ -219,10 +218,16 @@
         background-color: #ce8946;
       }
       
-      .section4 iframe {
-        padding-left: 40px;
-        padding-right: 40px;
-        height: 342px;
+      .column {
+        flex: 25%;
+        max-width: 50%;
+        padding: 0 40px;
+      }
+      
+      .column iframe {
+        vertical-align: middle;
+        width: 100%;
+        height: 400px;
       }
       
       .bottomVideo {
@@ -279,15 +284,6 @@
       
       #nav ul li a:active {
         color: #dd0426;
-      }
-
-      #footer {
-        clear: both;
-        color: #ffffff;
-        background-color: #aeaca8;
-        height: 30px;
-        font-size: 80%;
-        padding: 7px 0px 0px 20px;
       }
     </style>
 
@@ -369,33 +365,33 @@ performed by Anastasiya Spiridonova)</li>
         </div>
         <div class="bluebox left3 top">
           <p class="center">
-            First woman to land a quad Lutz jump in international competition.
+            First woman to land a quad Lutz jump in international competition
           </p>
         </div>
         <div class="bluebox left3 top">
           <p class="center">
-            First woman to land a quad in combination (the quad toe loop + triple toe loop).
+            First woman to land a quad in combination (the quad toe loop + triple toe loop)
           </p>
         </div>
         <div class="bluebox farRight top">
           <p class="center">
-            First woman to land a quad toe loop.
+            First woman to land a quad toe loop
           </p>
         </div>
       </div>
       <div class="flex-container">
         <div class="bluebox left3 rowAfter">
           <p class="center">
-            First woman to land two quads in the free skate.
+            First woman to land two quads in the free skate
           </p>
         </div>
         <div class="bluebox left3 rowAfter">
-          <p class="center">First woman to land two different types of quads.
+          <p class="center">First woman to land two different types of quads
           </p>
         </div>
         <div class="bluebox left3 rowAfter">
           <p class="center">
-            Second woman to land a clean quad Salchow behind Miki Ando.
+            Second woman to land a clean quad Salchow behind Miki Ando
           </p>
         </div>
         <div class="bluebox farRight rowAfter">
@@ -430,7 +426,7 @@ performed by Anastasiya Spiridonova)</li>
       <h2>Competitive Highlights
       </h2>
       <div class="flex-container">
-        <table>
+        <table class="column">
           <tr>
             <th>Competition</th>
             <th>Rank</th>
@@ -500,10 +496,10 @@ performed by Anastasiya Spiridonova)</li>
             <td class="silver">2nd</td>
           </tr>
         </table>
-        <div>
-          <iframe width="679" height="382" src="https://www.youtube.com/embed/wthEgbXlaMM" title="Alexandra Trusova&#39;s #Beijing2022 free program!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        <div class="column">
+          <iframe src="https://www.youtube.com/embed/wthEgbXlaMM" title="Alexandra Trusova&#39;s #Beijing2022 free program!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
           </iframe>
-          <iframe class="bottomVideo" width="679" height="382" src="https://www.youtube.com/embed/WH67_XoDy3k" title="Alexandra Trusova&#39;s #Beijing2022 short program!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+          <iframe class="bottomVideo" src="https://www.youtube.com/embed/WH67_XoDy3k" title="Alexandra Trusova&#39;s #Beijing2022 short program!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
           </iframe>
         </div>
       </div>
